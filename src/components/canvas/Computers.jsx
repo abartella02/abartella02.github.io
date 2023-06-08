@@ -5,31 +5,31 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 
-const Computers = () => {
+const Computers = ({isMobile}) => {
   const computer = useGLTF('./toyota_gr_supra/scene.gltf');
 
   return (
     <mesh>
       <hemisphereLight 
-        intensity={0.3}
+        intensity={0.5}
         groundColor='black'
       />
       <pointLight 
         position={[2, -1, -5]}
-        intensity={1}
+        intensity={3}
       />
       <spotLight 
         position={[-20, 50, 10]}
-        angle={0.12}
+        angle={0.3}
         penumbra={1}
-        intensity={1}
+        intensity={0.6}
         castShadow
         shadow-mapSize={1024}
       />
       <primitive 
         object={computer.scene}
-        scale={1.6}
-        position={[0, -2.3, 0]}
+        scale={isMobile?1.5:2.0}
+        position={isMobile?[0, -2.5, -0.3]:[0, -3.2, -0.3]}
         rotation={[0.1, 0.3, -0.1]}
       />
     </mesh>
@@ -37,6 +37,21 @@ const Computers = () => {
 }
 
 const ComputersCanvas = () => {
+  const [isMobile, setIsMoblile] = useState(false);
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(max-width: 800px)');
+    setIsMoblile(mediaQuery.matches);
+    const handleMediaQueryChange = (event) => {
+      setIsMoblile(event.matches);
+    }
+
+    mediaQuery.addEventListener('change', handleMediaQueryChange);
+    return () => {
+      mediaQuery.removeEventListener('change', handleMediaQueryChange);
+    }
+
+  }, [])
+
   return (
     <Canvas
       frameloop="demand"
@@ -50,11 +65,11 @@ const ComputersCanvas = () => {
             maxPolarAngle={Math.PI /2}
             minPolarAngle={Math.PI /2}
           />
-          <Computers />
+          <Computers isMobile={isMobile}/>
         </Suspense>
         <Preload all/>
     </Canvas>
   )
 }
 
-export default Computers
+export default ComputersCanvas

@@ -31,7 +31,7 @@ const Navbar = () => {
           />
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>
             Alex Bartella &nbsp;
-            <span className="hidden md:block font-light text-[18px]">| Mechatronics Student</span>
+            <span className="hidden md:block xs:max-sm:block font-light text-[18px]">| Mechatronics Student</span>
           </p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
