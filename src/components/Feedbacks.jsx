@@ -44,7 +44,7 @@ const Feedbacks = () => {
       <div className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}>
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>
-            What others say
+            Find a way to let people submit their feedback and it gets added to the site
           </p>
           <h2 className={styles.sectionHeadText}>
             Testimonials.
