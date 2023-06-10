@@ -96,51 +96,51 @@ import {
   const technologies = [
     {
       name: "HTML 5",
-      icon: html,
+      icon: python,
     },
     {
       name: "CSS 3",
-      icon: css,
+      icon: clang,
     },
     {
       name: "JavaScript",
-      icon: javascript,
+      icon: cpp,
     },
     {
       name: "TypeScript",
-      icon: typescript,
+      icon: verilog,
     },
     {
       name: "React JS",
-      icon: reactjs,
+      icon: matlab,
     },
     {
       name: "Redux Toolkit",
-      icon: redux,
+      icon: linux,
     },
     {
       name: "Tailwind CSS",
-      icon: tailwind,
+      icon: javascript,
     },
     {
       name: "Node JS",
-      icon: nodejs,
+      icon: html,
     },
     {
       name: "MongoDB",
-      icon: mongodb,
+      icon: css,
     },
     {
       name: "Three JS",
-      icon: threejs,
+      icon: reactjs,
     },
     {
       name: "git",
-      icon: git,
+      icon: nodejs,
     },
     {
       name: "figma",
-      icon: figma,
+      icon: git,
     },
     {
       name: "docker",

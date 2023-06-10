@@ -19,7 +19,7 @@ import threejs from "./tech/threejs.svg";
 
 import python from "./tech/python.png";
 import assembly from "./tech/assembly.png";
-import bash from "./tech/assembly.png";
+import bash from "./tech/bash.png";
 import clang from "./tech/clang.png";
 import cpp from "./tech/cpp.png";
 import jira from "./tech/jira.png";
