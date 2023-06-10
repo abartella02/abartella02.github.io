@@ -35,7 +35,7 @@ import lightsaber from "./lightsaber.png";
 import tictactoe from "./tictactoe.png";
 import pwmfancontroller from "./pwmfancontroller.png";
 import insiderbot from "./insiderbot.png";
-import autosublistmaker from "./autosublistmalker.png";
+import autosublistmaker from "./autosublistmaker.png";
 import steppermotor from "./steppermotor.png";
 import pacemaker from "./pacemaker.png";
 
@@ -89,6 +89,20 @@ export {
   vba,
   verilog,
   pytest,
+
+  tictactoe,
+  steppermotor,
+  pwmfancontroller,
+  pacemaker, 
+  lightsaber, 
+  insiderbot,
+  autosublistmaker,
+
+  bluecat,
+  duron,
+  mircom,
+
+  //////////////////////
 
   figma,
   mongodb,
