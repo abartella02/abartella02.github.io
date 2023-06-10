@@ -39,6 +39,10 @@ import autosublistmaker from "./autosublistmalker.png";
 import steppermotor from "./steppermotor.png";
 import pacemaker from "./pacemaker.png";
 
+import bluecat from "./company/bluecat.png";
+import mircom from "./company/mircom.png";
+import duron from "./company/duron.png";
+
 
 import typescript from "./tech/typescript.png";
 import redux from "./tech/redux.png";
