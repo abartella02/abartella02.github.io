@@ -38,6 +38,7 @@ import insiderbot from "./insiderbot.png";
 import autosublistmaker from "./autosublistmaker.png";
 import steppermotor from "./steppermotor.png";
 import pacemaker from "./pacemaker.png";
+import website from "./website.png";
 
 import bluecat from "./company/bluecat.png";
 import mircom from "./company/mircom.png";
@@ -97,6 +98,7 @@ export {
   lightsaber, 
   insiderbot,
   autosublistmaker,
+  website,
 
   bluecat,
   duron,

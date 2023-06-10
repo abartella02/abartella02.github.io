@@ -37,6 +37,7 @@ import {
   lightsaber, 
   insiderbot,
   autosublistmaker,
+  website,
 
   bluecat,
   duron,
@@ -80,7 +81,7 @@ import {
       icon: web,
     },
     {
-      title: "Embedded Systems Design",
+      title: "Dynamic Control Systems",
       icon: mobile,
     },
     {
@@ -88,7 +89,7 @@ import {
       icon: backend,
     },
     {
-      title: "Something else I like",
+      title: "Hardware & Software codesign",
       icon: creator,
     },
   ];
@@ -191,27 +192,35 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Designed, launched, and maintain a website via GoDaddy to promote the organization. Consults the committee regarding online aspects such as updates to website, SEO, digital marketing.",
+      name: "Website Designer",
+      designation: "",
+      company: "Castelpizzuto Italian Social club",
+      image: "",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Assisted in planning and running multiple sports events for engineering students at McMaster, including a soccer tournament of nearly 400 participants. In charge of collecting forms, organizing participant data. ",
+      name: "Data Coordinator",
+      designation: "MES Sports Committee",
+      company: "McMaster Engineering Society",
+      image: "",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Aided in organzing and running help sessions for first and second years on subjects such as computer science, calculus, and physics.",
+      name: "Committee Member & Help Session Leader",
+      designation: "MES Academic Services Committee",
+      company: "McMaster Engineering Society",
+      image: "",
+    },
+    {
+      testimonial:
+        "Assissted in planning of workshop events and participated in team meetings discussing future plans.",
+      name: "Computer Chapter Member",
+      designation: "McMaster IEEE Chapter",
+      company: "McMaster University",
+      image: "",
     },
   ];
   
@@ -238,7 +247,7 @@ import {
       source_code_link: "https://github.com/abartella02/Portfolio/tree/main/Python%2C%20Simulink%20-%20Pacemaker",
     },
     {
-      name: "ASIP Stepper Motor Controller",
+      name: "ASIP Stepper Motor Controller + SDRAM Controller",
       description:
         "Designed an ASIP using Verilog, including a 14-module datapath and control FSM on an Intel Cyclone V FPGA to control a stepper motor Constructed a motor driver interface circuit using an SN754410 Half-H Driver chip Utilized Quartus Prime for simulation and testing of the ASIP and its modules. Additionally, wrote test programs in assembly to be run on ASIP.",
       tags: [
@@ -259,38 +268,54 @@ import {
       source_code_link: "https://github.com/abartella02/Portfolio/tree/main/Verilog%20-%20ASIP%20Stepper%20motor%20controller",
     },
     {
-      name: "SDRAM controller",
+      name: "InsiderBot",
       description:
-        "Used Verilog to build an SDRAM controller on an Intel Cyclone V FPGA. VerilogQuartus Prime Designed a controller circuit for an SDRAM chip on a Cyclone V FPGA Controller is able to read and write data to the DRAM.",
-      tags: [
-        {
-          name: "Verilog",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Embedded Systems Design",
-          color: "green-text-gradient",
-        }
-      ],
-      image: steppermotor,
-      source_code_link: "https://github.com/abartella02/Portfolio/tree/main/Verilog%20-%20SDRAM%20controller",
-    },
-    {
-      name: "Automatic Subcontractor Assembler",
-      description:
-        "Scrapes a word document for desired subcontractors, scrapes the company database for their contact information and status, sorts the information by subtrade then displays the information in an excel-based GUI with a VBA backend. I created this application to provide an advantage during the time-sensitive job bidding process.",
+        "A personal project that I created when I began trading in the stock market. Uses Discord for input and output. Reports information on a specified stock (50 day average, daily high, daily low, yield, etc). Provides insider trades information: CEOs/company heads/politicians that bought or sold large amounts of company stock. Uses selenium, requests, beautifulsoup python libraries to scrape the web for the above information, as well as the discord library.",
       tags: [
         {
           name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "Visual basic",
+          name: "Selenium",
           color: "green-text-gradient",
+        },
+        {
+          name:"HTML",
+          color: "pink-text-gradient",
         }
       ],
-      image: steppermotor,
-      source_code_link: "https://github.com/abartella02/Portfolio/tree/main/Verilog%20-%20SDRAM%20controller",
+      image: insiderbot,
+      source_code_link: "https://github.com/abartella02/Portfolio/tree/main/Python%20-%20InsiderBot",
+    },
+    {
+      name: "3D Interactive Web Portfolio",
+      description:
+        "Speaks for itself, doesnt it? Modern, clean, and responsive website built to showcase my experiences and projects, as well as my web development skills. Built using three.js, react, node, html, & tailwindcss.",
+      tags: [
+        {
+          name: "JavaScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML & Tailwindcss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Node",
+          color: "pink-text-gradient"
+        },
+        {
+          name: "React",
+          color: "orange-text-gradient"
+        },
+        {
+          name: "Three.js",
+          color: "blue-text-gradient"
+        }
+      ],
+      image: website,
+      source_code_link: "https://github.com/abartella02/3d_portfolio/tree/custom",
     },
   ];
   

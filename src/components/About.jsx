@@ -45,7 +45,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        This is a paragraph about me and what i'm good at
+        My goal throughout my academic career has always been to become a jack of all trades, hence my choice to study mechatronics. Since beginning my studies, I've worked in diverse roles in construction, smart buildings, and web services. Through my passion for emerging technologies and pursuit of knowledge I have developed many interests and skills in the technological sector. 
         <br/> &nbsp;
       </motion.p>
 

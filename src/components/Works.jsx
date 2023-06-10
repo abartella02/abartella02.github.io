@@ -75,7 +75,8 @@ const Works = () => {
           variants={fadeIn('', '', 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          This is a description of my projects overall and all that
+          Through school as well as on my own I've been able to do some project that have built my skills as an engineer and a software developer. 
+          I generally like to think that whenever I see an opportunity to use my programming knowledge to solve an everyday problem, its worth a shot, no matter how small. 
         </motion.p>
       </div>
 
