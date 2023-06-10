@@ -46,7 +46,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         This is a paragraph about me and what i'm good at
-
+        <br/> &nbsp;
       </motion.p>
 
       <div className='mt-29 flex flex-wrap gap-10'>
