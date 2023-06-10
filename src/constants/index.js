@@ -150,55 +150,40 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Developer Co-op",
+      company_name: "BlueCat Networks",
+      icon: bluecat,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "May 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Actively contributed to the development of the Gateway web app’s UI overhaul, collaborating with a team of 5 developers, participating in daily scrums, and utilizing Jira and GitLab for ticket tracking.",
+        "Modified frontend UI and debugged Gateway web app, utilizing flask and React.",
+        "Assisted in the creation and execution of comprehensive test plans, performing unit and integration testing to identify and resolve software defects.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "QA Analyst & Engineering Co-op",
+      company_name: "Mircom",
+      icon: mircom,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "May 2022 - August 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Tested, reported, and verified over 250 hardware and software bugs on a range of fire detection and smart building systems, learning from & working with a team of analysts and developers across Canada.",
+        "Aided in launch of FX‐4000 family of products by performing software integrity testing procedures.",
+        "Designed and 3D printed prototype electronic enclosures to be manufactured out of sheet metal.",
+        "Modified and revised product documentation & application guides.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Project Coordinator & Engineering Co-op",
+      company_name: "Duron Ontario",
+      icon: duron,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "May 2021 - August 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created, revised, and submitted over 200 project drawings and engineering documentation.",
+        "Acted as a seamless link between subcontractors, supervisors, and clients on 13 projects simultaneously.",
+        "Using python and visual basic, created excel template for bidding lists which automatically scrapes company database for subcontractor information. Reduced turnaround time from 3 hours to 5 minutes.",
       ],
     },
   ];
@@ -232,67 +217,80 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Pacemaker w/GUI",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A pacemaker designed using simulink paired with a python-based GUI. Features multiple users support, serial communication, real-time plotting of pacemaker data. GUI can program and read pacemaker parameters over serial. APIs used include threading, pyserial, tkinter, matplotlib, and struct.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "simulink",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "serial communication",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: pacemaker,
+      source_code_link: "https://github.com/abartella02/Portfolio/tree/main/Python%2C%20Simulink%20-%20Pacemaker",
     },
     {
-      name: "Job IT",
+      name: "ASIP Stepper Motor Controller",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Designed an ASIP using Verilog, including a 14-module datapath and control FSM on an Intel Cyclone V FPGA to control a stepper motor Constructed a motor driver interface circuit using an SN754410 Half-H Driver chip Utilized Quartus Prime for simulation and testing of the ASIP and its modules. Additionally, wrote test programs in assembly to be run on ASIP.",
       tags: [
         {
-          name: "react",
+          name: "verilog",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "UAL/assembly",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "embedded systems design",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: steppermotor,
+      source_code_link: "https://github.com/abartella02/Portfolio/tree/main/Verilog%20-%20ASIP%20Stepper%20motor%20controller",
     },
     {
-      name: "Trip Guide",
+      name: "SDRAM controller",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Used Verilog to build an SDRAM controller on an Intel Cyclone V FPGA. VerilogQuartus Prime Designed a controller circuit for an SDRAM chip on a Cyclone V FPGA Controller is able to read and write data to the DRAM.",
       tags: [
         {
-          name: "nextjs",
+          name: "Verilog",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Embedded Systems Design",
           color: "green-text-gradient",
+        }
+      ],
+      image: steppermotor,
+      source_code_link: "https://github.com/abartella02/Portfolio/tree/main/Verilog%20-%20SDRAM%20controller",
+    },
+    {
+      name: "Automatic Subcontractor Assembler",
+      description:
+        "Scrapes a word document for desired subcontractors, scrapes the company database for their contact information and status, sorts the information by subtrade then displays the information in an excel-based GUI with a VBA backend. I created this application to provide an advantage during the time-sensitive job bidding process.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
         },
         {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+          name: "Visual basic",
+          color: "green-text-gradient",
+        }
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: steppermotor,
+      source_code_link: "https://github.com/abartella02/Portfolio/tree/main/Verilog%20-%20SDRAM%20controller",
     },
   ];
   
