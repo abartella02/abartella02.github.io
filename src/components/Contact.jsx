@@ -7,9 +7,7 @@ import { styles } from '../styles';
 import { MailboxCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
-//QaOu5FcQtOB8VMD0m
-//template_f4hb7pp
-//service_3jboasw
+
 
 const Contact = () => {
   const formRef = useRef();

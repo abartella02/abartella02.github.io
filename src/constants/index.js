@@ -4,25 +4,32 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    bluecat,
     carrent,
     jobit,
     tripguide,
     threejs,
+
+    assembly, 
+    bash, 
+    clang, 
+    cpp, 
+    jira, 
+    linux, 
+    matlab, 
+    pyserial,
+    python,
+    selenium, 
+    vba,
+    verilog,
+    pytest,
   } from "../assets";
   
   export const navLinks = [
@@ -61,28 +68,48 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "C",
+      icon: clang,
+    },
+    {
+      name: "C++",
+      icon: cpp,
+    },
+    {
+      name: "Verilog",
+      icon: verilog,
+    },
+    {
+      name: "MATLAB",
+      icon: matlab,
     },
     {
       name: "JavaScript",
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Bash",
+      icon: bash,
+    },
+    {
+      name: "ARM UAL",
+      icon: assembly,
+    },
+    {
+      name: "HTML",
+      icon: html,
+    },
+    {
+      name: "CSS",
+      icon: css,
     },
     {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -93,32 +120,48 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
+    },
+    {
+      name: "Selenium",
+      icon: selenium,
+    },
+    {
+      name: "PySerial",
+      icon: pyserial,
+    },
+    {
+      name: "PyTest",
+      icon: pytest,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
+    },
+    {
+      name: "Jira",
+      icon: jira,
+    },
+    {
+      name: "Linux",
+      icon: linux,
+    },
+    {
+      name: "Visual Basic",
+      icon: vba,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Developer Co-op",
+      company_name: "BlueCat Networks",
+      icon: bluecat,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
@@ -131,7 +174,7 @@ import {
     {
       title: "React Native Developer",
       company_name: "Tesla",
-      icon: tesla,
+      icon: bluecat,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
@@ -144,7 +187,7 @@ import {
     {
       title: "Web Developer",
       company_name: "Shopify",
-      icon: shopify,
+      icon: bluecat,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
@@ -157,7 +200,7 @@ import {
     {
       title: "Full stack Developer",
       company_name: "Meta",
-      icon: meta,
+      icon: bluecat,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
