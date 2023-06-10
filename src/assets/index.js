@@ -31,6 +31,15 @@ import vba from "./tech/vba.png";
 import verilog from "./tech/verilog.png";
 import pytest from "./tech/pytest.png";
 
+import lightsaber from "./lightsaber.png";
+import tictactoe from "./tictactoe.png";
+import pwmfancontroller from "./pwmfancontroller.png";
+import insiderbot from "./insiderbot.png";
+import autosublistmaker from "./autosublistmalker.png";
+import steppermotor from "./steppermotor.png";
+import pacemaker from "./pacemaker.png";
+
+
 import typescript from "./tech/typescript.png";
 import redux from "./tech/redux.png";
 import mongodb from "./tech/mongodb.png";
