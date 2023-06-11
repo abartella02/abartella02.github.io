@@ -1,0 +1,11 @@
+Model Information:
+* title:	Canadian Mail Box
+* source:	https://sketchfab.com/3d-models/canadian-mail-box-9c4ff38d235a4e0d966657dae3061f0b
+* author:	Mikko Haapoja (https://sketchfab.com/mikkoh)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Canadian Mail Box" (https://sketchfab.com/3d-models/canadian-mail-box-9c4ff38d235a4e0d966657dae3061f0b) by Mikko Haapoja (https://sketchfab.com/mikkoh) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
