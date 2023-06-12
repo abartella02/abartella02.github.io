@@ -54,7 +54,7 @@ const Navbar = () => {
               hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={()=>setActive(Link.title)}
             >
-              <a href={`#${Link.id}`}>{Link.title}</a>
+              <a href={`${String(Link.title)==="Source Code"?"":"#"}${Link.id}`}>{Link.title}</a>
             </li>
           )
           )}
@@ -89,7 +89,7 @@ const Navbar = () => {
                       setToggle(!toggle);
                     }}
                   >
-                    <a href={`#${Link.id}`}>{Link.title}</a>
+                    <a href={`${String(Link.title)==="Source Code"?"":"#"}${Link.id}`}>{Link.title}</a>
                   </li>
                 )
                 )}
