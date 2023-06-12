@@ -13,16 +13,18 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 violet-gradient'/>
         </div>
 
-        <div>
+        <div className='overlay z-[2] w-full h-auto' style={{backgroundColor: "rgba(0, 0, 100, 0)"}}>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className={"text-[#915eff]"}>Alex</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I'm a <b>Mechatronics Engineering</b> Student who is passionate about <b>web development</b> and <b>control systems</b> <span className='text-[14px]'>(and cars)</span>
           </p>
         </div>
       </div>
+      <div className='overlay absolute inset-0 z-[1] w-auto h-[60vh]' style={{backgroundColor: "rgba(100, 0, 0, 0)"}}/>
       <ComputersCanvas />
+      
 
-      <div className='absolute bottom-10 md:right-20 right-1/2 w-auto flex justify-center items-right '>
+      <div className='absolute bottom-20 md:right-20 right-[46%] w-auto flex justify-center items-right '>
         <a href="#about">
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-end p-2'>
             <motion.div 

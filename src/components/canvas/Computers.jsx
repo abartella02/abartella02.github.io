@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 
-const Computers = ({isMobile}) => {
+const Computers = ({isMobile}, {isSmall}) => {
   const computer = useGLTF('./toyota_gr_supra/scene.gltf');
 
   return (
@@ -28,8 +28,11 @@ const Computers = ({isMobile}) => {
       />
       <primitive 
         object={computer.scene}
-        scale={isMobile?1.5:2.0}
-        position={isMobile?[0, -2.5, -0.3]:[0, -3.2, -0.3]}
+        scale={
+          isMobile?1.1:1.8
+        }
+        position={
+          isMobile?[0, -2, -0.3]:[0, -2.6, -0.3]}
         rotation={[0.1, 0.3, -0.1]}
       />
     </mesh>
@@ -37,17 +40,26 @@ const Computers = ({isMobile}) => {
 }
 
 const ComputersCanvas = () => {
-  const [isMobile, setIsMoblile] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+  const [isSmall, setIsSmall] = useState(false);
   useEffect(() => {
-    const mediaQuery = window.matchMedia('(max-width: 800px)');
-    setIsMoblile(mediaQuery.matches);
-    const handleMediaQueryChange = (event) => {
-      setIsMoblile(event.matches);
+    const mediaQueryM = window.matchMedia('(max-width: 800px)');
+    const mediaQueryS = window.matchMedia('(max-width: 400px)');
+    setIsMobile(mediaQueryM.matches);
+    setIsSmall(mediaQueryS.matches);
+
+    const handleMediaQueryChangeM = (event) => {
+      setIsMobile(event.matches);
+    }
+    const handleMediaQueryChangeS = (event) => {
+      setIsSmall(event.matches);
     }
 
-    mediaQuery.addEventListener('change', handleMediaQueryChange);
+    mediaQueryM.addEventListener('change', handleMediaQueryChangeM);
+    mediaQueryS.addEventListener('change', handleMediaQueryChangeS);
     return () => {
-      mediaQuery.removeEventListener('change', handleMediaQueryChange);
+      mediaQueryM.removeEventListener('change', handleMediaQueryChangeM);
+      mediaQueryS.removeEventListener('change', handleMediaQueryChangeS);
     }
 
   }, [])
@@ -65,7 +77,7 @@ const ComputersCanvas = () => {
             maxPolarAngle={Math.PI /2}
             minPolarAngle={Math.PI /2}
           />
-          <Computers isMobile={isMobile}/>
+          <Computers isMobile={isMobile} isSmall={isSmall}/>
         </Suspense>
         <Preload all/>
     </Canvas>
