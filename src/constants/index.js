@@ -113,7 +113,7 @@ import {
     },
     {
       name: "TypeScript",
-      icon: verilog,
+      icon: javascript,
     },
     {
       name: "React JS",
@@ -125,7 +125,7 @@ import {
     },
     {
       name: "Tailwind CSS",
-      icon: javascript,
+      icon: verilog,
     },
     {
       name: "Node JS",
@@ -140,11 +140,11 @@ import {
       icon: reactjs,
     },
     {
-      name: "git",
+      name: "node",
       icon: nodejs,
     },
     {
-      name: "figma",
+      name: "git",
       icon: git,
     },
     {
@@ -161,9 +161,9 @@ import {
       iconBg: "#383E56",
       date: "May 2023 - Present",
       points: [
-        "Actively contributed to the development of the Gateway web app’s UI overhaul, collaborating with a team of 5 developers, participating in daily scrums, and utilizing Jira and GitLab for ticket tracking.",
-        "Modified frontend UI and debugged Gateway web app, utilizing flask and React.",
-        "Assisted in the creation and execution of comprehensive test plans, performing unit and integration testing to identify and resolve software defects.",
+        "Actively contributed to the development of the Gateway web app including a complete UI overhaul, collaborating with a team of full‐stack developers in an agile environment.",
+        "Developed new and modified existing features on frontend and backend harnessing Python, JavaScript/React, and HTML/CSS",
+        "Assisted in the creation and execution of comprehensive test plans. Developed UI, image, unit, and code integration testing scripts to identify, verify, and resolve software defects.",
       ],
     },
     {
@@ -173,9 +173,9 @@ import {
       iconBg: "#E6DEDD",
       date: "May 2022 - August 2022",
       points: [
-        "Tested, reported, and verified over 250 hardware and software bugs on a range of fire detection and smart building systems, learning from & working with a team of analysts and developers across Canada.",
-        "Aided in launch of FX‐4000 family of products by performing software integrity testing procedures.",
-        "Designed and 3D printed prototype electronic enclosures to be manufactured out of sheet metal.",
+        "Tested, reported, fixed, and verified over 250 hardware and software bugs on a range of fire detection and smart building systems, learning from & working with a team of analysts and developers across Canada.",
+        "Aided in launch of FX‐4000 family of products by identifying and resolving software defects, and performing hardware integrity testing procedures.",
+        "Designed and prototyped electronic panel enclosures using AutoDesk Inventor, to later be manufactured out of sheet metal.",
         "Modified and revised product documentation & application guides.",
       ],
     },
@@ -187,7 +187,7 @@ import {
       date: "May 2021 - August 2021",
       points: [
         "Created, revised, and submitted over 200 project drawings and engineering documentation.",
-        "Acted as a seamless link between subcontractors, supervisors, and clients on 13 projects simultaneously.",
+        "Acted as a seamless link between subcontractors, supervisors, and clients on 15 projects simultaneously.",
         "Using python and visual basic, created excel template for bidding lists which automatically scrapes company database for subcontractor information. Reduced turnaround time from 3 hours to 5 minutes.",
       ],
     },

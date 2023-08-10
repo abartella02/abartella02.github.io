@@ -20,6 +20,22 @@ const Hero = () => {
           </p>
         </div>
       </div>
+      <div className = 'absolute top-[42%] left-[75%] w-[100px] h-auto flex' >      
+        <motion.div
+          key="spin_me"
+          exit={{opacity:1}}
+          initial={{opacity:0}}
+          animate={{opacity:1}}
+          transition={
+            {
+              duration:2.5,
+              delay: 2.5
+            }
+          }
+        >
+          <img src="src\assets\spin_me.png" alt="Give it a try!"/>
+        </motion.div>
+      </div>
       <div className='overlay absolute inset-0 z-[1] w-auto h-[60vh]' style={{backgroundColor: "rgba(100, 0, 0, 0)"}}/>
       <ComputersCanvas />
       
