@@ -1,5 +1,6 @@
 import {
   logo,
+  spinme,
   backend,
   creator,
   mobile,

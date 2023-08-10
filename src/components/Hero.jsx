@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
+import { spinme } from '../assets';
 import { ComputersCanvas } from './canvas';
 
 
@@ -33,7 +34,7 @@ const Hero = () => {
             }
           }
         >
-          <img src="src\assets\spin_me.png" alt="Give it a try!"/>
+          <img src={spinme} alt="Give it a try!"/>
         </motion.div>
       </div>
       <div className='overlay absolute inset-0 z-[1] w-auto h-[60vh]' style={{backgroundColor: "rgba(100, 0, 0, 0)"}}/>
