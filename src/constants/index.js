@@ -199,7 +199,7 @@ import {
       testimonial:
         "Designed, manufactured, and delivered merchandising such as t-shirts, hoodies, patches, etc for the Mechatronics Society.",
       name: "Vice President - Merchandising",
-      designation: "Ontario Engineering Competition 2024",
+      designation: "McMaster Mechatronics Society",
       company: "June 2024 - Current",
       image: "",
     },
@@ -207,7 +207,7 @@ import {
       testimonial:
         "Organizing and designing a robotics-based competition for the upper-year students participating in the Ontario Engineering Competition at McMaster University.",
       name: "Senior Design Competition Lead",
-      designation: "Ontario Engineering Competition 2024",
+      designation: "Ontario Engineering Competition (2025)",
       company: "June 2024 - Current",
       image: "",
     },
