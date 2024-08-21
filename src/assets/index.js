@@ -44,6 +44,7 @@ import website from "./website.png";
 import bluecat from "./company/bluecat.png";
 import mircom from "./company/mircom.png";
 import duron from "./company/duron.png";
+import ford from "./company/ford.png";
 
 
 import typescript from "./tech/typescript.png";
@@ -105,6 +106,7 @@ export {
   bluecat,
   duron,
   mircom,
+  ford,
 
   //////////////////////
 

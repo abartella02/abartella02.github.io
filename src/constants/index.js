@@ -43,22 +43,7 @@ import {
   bluecat,
   duron,
   mircom,
-
-  //////////////////////
-
-  figma,
-  mongodb,
-  redux,
-  typescript,
-
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-
-  carrent,
-  jobit,
-  tripguide,
+  ford,
   } from "../assets";
   
   export const navLinks = [
@@ -94,50 +79,38 @@ import {
       icon: backend,
     },
     {
-      title: "Hardware & Software codesign",
+      title: "Hardware & Software design",
       icon: creator,
     },
   ];
   
   const technologies = [
     {
-      name: "HTML 5",
+      name: "Python",
       icon: python,
     },
     {
-      name: "CSS 3",
+      name: "C",
       icon: clang,
     },
     {
-      name: "JavaScript",
+      name: "C++",
       icon: cpp,
     },
     {
-      name: "TypeScript",
+      name: "JavaScript",
       icon: javascript,
     },
     {
-      name: "React JS",
-      icon: matlab,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: linux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: verilog,
-    },
-    {
-      name: "Node JS",
+      name: "HTML",
       icon: html,
     },
     {
-      name: "MongoDB",
+      name: "CSS",
       icon: css,
     },
     {
-      name: "Three JS",
+      name: "react",
       icon: reactjs,
     },
     {
@@ -152,15 +125,41 @@ import {
       name: "docker",
       icon: docker,
     },
+    {
+      name: "matlab",
+      icon: matlab,
+    },
+    {
+      name: "Unix/Linux",
+      icon: linux,
+    },
+    {
+      name: "verilog",
+      icon: verilog,
+    },
   ];
   
   const experiences = [
     {
-      title: "Software Developer Co-op",
+      title: "Test Automation Engineer (co-op)",
+      company_name: "Ford Motor Company",
+      icon: ford,
+      iconBg: "#383E56",
+      date: "May 2024 - August 2024",
+      points: [
+        "Wrote, modified, and documented vehicle infotainment and instrument cluster tests.",
+        "Developed workarounds and dynamic tools for tests requiring browser login.",
+        "Refined and debugged experimental proof-of-concept test suites, significantly reducing the time needed to write and execute tests.",
+        "Expanded the capabilities of a screen recording Android app for in-vehicle use, integrating it into test suites for vehicle systems.",
+        "Assembled and optimized a hardware test bench, modifying and debugging both software and hardware test suites.",
+      ],
+    },
+    {
+      title: "Full Stack Developer (co-op)",
       company_name: "BlueCat Networks",
       icon: bluecat,
       iconBg: "#383E56",
-      date: "May 2023 - Present",
+      date: "May 2023 - April 2024",
       points: [
         "Actively contributed to the development of the Gateway web app including a complete UI overhaul, collaborating with a team of full‐stack developers in an agile environment.",
         "Developed new and modified existing features on frontend and backend harnessing Python, JavaScript/React, and HTML/CSS",
@@ -168,7 +167,7 @@ import {
       ],
     },
     {
-      title: "QA Analyst & Engineering Co-op",
+      title: "QA Analyst (co-op)",
       company_name: "Mircom",
       icon: mircom,
       iconBg: "#E6DEDD",
@@ -181,7 +180,7 @@ import {
       ],
     },
     {
-      title: "Project Coordinator & Engineering Co-op",
+      title: "Project Coordinator (co-op)",
       company_name: "Duron Ontario",
       icon: duron,
       iconBg: "#383E56",
@@ -194,37 +193,38 @@ import {
     },
   ];
   
+  // TODO: change object name and key names
   const testimonials = [
     {
       testimonial:
-        "Designed, launched, and maintain a website via GoDaddy to promote the organization. Consults the committee regarding online aspects such as updates to website, SEO, digital marketing.",
-      name: "Website Designer",
-      designation: "",
-      company: "Castelpizzuto Italian Social club",
+        "Designed, manufactured, and delivered merchandising such as t-shirts, hoodies, patches, etc for the Mechatronics Society.",
+      name: "Vice President - Merchandising",
+      designation: "Ontario Engineering Competition 2024",
+      company: "June 2024 - Current",
+      image: "",
+    },
+    {
+      testimonial:
+        "Organizing and designing a robotics-based competition for the upper-year students participating in the Ontario Engineering Competition at McMaster University.",
+      name: "Senior Design Competition Lead",
+      designation: "Ontario Engineering Competition 2024",
+      company: "June 2024 - Current",
       image: "",
     },
     {
       testimonial:
         "Assisted in planning and running multiple sports events for engineering students at McMaster, including a soccer tournament of nearly 400 participants. In charge of collecting forms, organizing participant data. ",
-      name: "Data Coordinator",
-      designation: "MES Sports Committee",
-      company: "McMaster Engineering Society",
+      name: "Sports Committee Data Coordinator",
+      designation: "McMaster Engineering Society",
+      company: "September 2021 - May 2023",
       image: "",
     },
     {
       testimonial:
         "Aided in organzing and running help sessions for first and second years on subjects such as computer science, calculus, and physics.",
-      name: "Committee Member & Help Session Leader",
-      designation: "MES Academic Services Committee",
-      company: "McMaster Engineering Society",
-      image: "",
-    },
-    {
-      testimonial:
-        "Assissted in planning of workshop events and participated in team meetings discussing future plans.",
-      name: "Computer Chapter Member",
-      designation: "McMaster IEEE Chapter",
-      company: "McMaster University",
+      name: "Academic Services Help Session Leader",
+      designation: "McMaster Engineering Society",
+      company: "September 2022 - April 2024",
       image: "",
     },
   ];
