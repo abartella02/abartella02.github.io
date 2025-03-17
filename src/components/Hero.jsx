@@ -10,14 +10,15 @@ const Hero = () => {
     <section className='relative w-full h-[101vh] min-[800px]:h-[110vh] mx-auto'>
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#915eff]'/>
+          <div className='w-5 h-5 rounded-full bg-[#248a91]'/>
           <div className='w-1 sm:h-80 h-40 violet-gradient'/>
         </div>
 
         <div className='overlay z-[2] w-full h-auto' style={{backgroundColor: "rgba(0, 0, 100, 0)"}}>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className={"text-[#915eff]"}>Alex</span></h1>
+          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className={"text-[#248a91]"}>Alex</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a <b>Mechatronics Engineering</b> Student who is passionate about <b>web development</b> and <b>control systems</b> <span className='text-[14px]'>(and cars)</span>
+            I'm a <b>Mechatronics Engineering</b> graduate who is passionate about <b>robotics</b>, <b>machine learning</b>
+            and <b>dynamic control systems</b> <span className='text-[14px]'>(and cars)</span>
           </p>
         </div>
       </div>

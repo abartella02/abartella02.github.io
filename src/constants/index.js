@@ -30,6 +30,8 @@ import {
   vba,
   verilog,
   pytest,
+  tensorflow,
+  pytorch,
 
   tictactoe,
   steppermotor,
@@ -75,7 +77,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Full Stack Development",
+      title: "Machine Learning",
       icon: backend,
     },
     {
@@ -126,16 +128,16 @@ import {
       icon: docker,
     },
     {
-      name: "matlab",
-      icon: matlab,
+      name: "Tensorflow",
+      icon: tensorflow,
     },
     {
       name: "Unix/Linux",
       icon: linux,
     },
     {
-      name: "verilog",
-      icon: verilog,
+      name: "PyTorch",
+      icon: pytorch,
     },
   ];
   

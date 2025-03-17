@@ -31,6 +31,8 @@ import selenium from "./tech/selenium.png";
 import vba from "./tech/vba.png";
 import verilog from "./tech/verilog.png";
 import pytest from "./tech/pytest.png";
+import tensorflow from "./tech/tensorflow.png";
+import pytorch from "./tech/pytorch.png";
 
 import lightsaber from "./lightsaber.png";
 import tictactoe from "./tictactoe.png";
@@ -93,6 +95,8 @@ export {
   vba,
   verilog,
   pytest,
+  tensorflow,
+  pytorch,
 
   tictactoe,
   steppermotor,
